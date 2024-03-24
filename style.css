@@ -65,3 +65,11 @@ main{
     margin-bottom: 35px;
     margin-top: 20px;
 }
+.label-score{
+    font-size: 30px;
+    margin-bottom: 35px;
+}
+.label-highscore{
+    font-size: 30px;
+    margin-bottom: 35px;
+}
