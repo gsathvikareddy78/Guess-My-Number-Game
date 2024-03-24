@@ -29,3 +29,13 @@ h1{
 header{
     border-bottom:10px solid white ;
 }
+.number{
+    font-size: 70px;
+    background-color:blueviolet;
+    width:90px;
+    padding: 20px ;
+    position: relative;
+    left: 40%;
+    top:60px;
+    justify-content: center;
+}
