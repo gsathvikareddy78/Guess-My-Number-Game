@@ -44,3 +44,13 @@ main{
     display: flex;
     justify-content: space-around;
 }
+.guess{
+    padding: 20px;
+    width: 180px;
+    font-size: 50px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    text-align: center;
+    display: block;
+}
