@@ -6,3 +6,13 @@ body{
     background-color: black;
     color: white;
 }
+header div{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header div .again{
+    font-size: 50px;
+    margin: 30px;
+    padding: 20px;
+}
