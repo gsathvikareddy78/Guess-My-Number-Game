@@ -73,3 +73,66 @@ main{
     font-size: 30px;
     margin-bottom: 35px;
 }
+
+/* Media Queries */
+@media only screen and (max-width: 768px) {
+    header div {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header div .again {
+        font-size: 30px;
+        margin: 20px;
+        padding: 10px;
+    }
+
+    header div p {
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 30px;
+        margin-top: 15px;
+    }
+
+    .number {
+        font-size: 50px;
+        padding: 15px;
+        width: 100px;
+        position: relative;
+        left: 120px;
+        top:50px
+    }
+
+    main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .guess {
+        font-size: 30px;
+        padding: 15px;
+        width: 140px;
+        margin-top: -50px;
+    }
+
+    .checkBtn {
+        font-size: 20px;
+        padding: 8px;
+        margin-top: 20px;
+        margin-left: 15px;
+    }
+
+    .message {
+        font-size: 20px;
+        margin-bottom: 25px;
+        margin-top: 30px;
+    }
+
+    .label-score,
+    .label-highscore {
+        font-size: 20px;
+        margin-bottom: 25px;
+    }
+}
